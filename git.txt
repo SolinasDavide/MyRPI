@@ -1,0 +1,67 @@
+____INSTALL____
+sudo apt update && sudo apt upgrade -y
+sudo apt install git -y
+git --version
+
+____CONFIG____
+git remote add origin <url>
+git config --global user.name "<nome>"		//SolinasDavide
+git config --global user.email "<mail>"		//davide.solinas.00@gmail.com
+git config --local --list     				//configueazioni locali
+git remote remove origin					//rimuovi l'origine
+git remote -v   							//mostra quali origini ho 
+git remote add <origin> <url>     			//aggiunge un origine 
+
+.git/ 			//file nascosto con dentro toot info
+
+____COMMAND____
+git init					//Inizializza una cartella come repository Git.
+git clone <url>				//Scarica un progetto da url (http,ssh,..).
+git add	<file>				//Prepara i file modificati per il salvataggio.
+git commit -m "<msg>"		//Salva le modifiche localmente +  commento.
+
+git push							//Carica le modifiche su un server remoto (es. GitHub).
+git push -u origin main 			//definisce il percorso di upload 
+git push origin <local>:<online>	//aggiorna brench locale rispetto a brench online
+git push origin main --force		// forzatura
+git push origin --delete <main>		// elimina il branch online 
+
+
+git log --oneline --graph --all		// action list + indentation 
+
+git status  				//situazione pendenti file modificati senza commit
+git restore <file>   		//elimina la modifica ( modifica non ancora add)
+git restore --staged   		//ripristina dalla versione add  ???
+
+git diff <hash> 			// differenza tra file commit, referenza <hash>
+git reset <hash>  			// <HEAD ~ n> scala indietro di n passi 
+
+git fetch  					//aggiorna storico locale rispetto quello online
+git rebase <main>			//riallinea ribasandosi su main 
+git pull <brench>			// download (fatch + rebase) modifiche 
+git pull origin main		// sintonizzo sulle modifiche online 
+
+
+git branch 					//lista dei branch e quello corrente
+git branch -M main			//rinomina il branch corrente forzando sovrascrittura
+git branch -m <oldName> <newName> 
+
+
+git switch -c <branch> 		//crea un nuovo brench
+git switch <branch>			//per cambiare branch 
+git switch <hash> --detach	//per cambiare commit  
+
+git merge <brench> 			//unisco brench al mio attuale: Locale, seguito da rebase
+
+
+
+
+__GIT_HUB__
+https://github.com/settings/tokens
+generate token (classic) -> name , flag repo -> generate
+HTTP: https://github.com/SolinasDavide/TestGit-Rpi.git
+SSH: git@github.com:SolinasDavide/TestGit-Rpi.git
+
+
+editro commit 
+:wq -> quit
