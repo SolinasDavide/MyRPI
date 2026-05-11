@@ -60,7 +60,7 @@ __GIT_HUB__
 https://github.com/settings/tokens
 generate token (classic) -> name , flag repo -> generate
 HTTP: https://github.com/SolinasDavide/TestGit-Rpi.git
-SSH: git@github.com:SolinasDavide/TestGit-Rpi.git
+SSH: git@github.com:SolinasDavide/MyRPI.git
 
 
 editro commit 

@@ -1,0 +1,69 @@
+# === SISTEMA OPERATIVO ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === VISUAL STUDIO CODE ===
+.vscode/
+*.code-workspace
+
+# === COMPILAZIONE C E C++ ===
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# === ESEGUIBILI E BINARI ===
+*.exe
+*.out
+*.app
+# Se il tuo eseguibile non ha estensione, aggiungi il nome specifico qui:
+# mio_programma
+
+# === CARTELLE DI BUILD (STRUMENTI AUTOMATICI) ===
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+bin/
+obj/
+
+# === LOG E TEMPORANEI ===
+*.log
+*.tmp# === SISTEMA OPERATIVO ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === VISUAL STUDIO CODE ===
+.vscode/
+*.code-workspace
+
+# === COMPILAZIONE C E C++ ===
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# === ESEGUIBILI E BINARI ===
+*.exe
+*.out
+*.app
+# Se il tuo eseguibile non ha estensione, aggiungi il nome specifico qui:
+# mio_programma
+
+# === CARTELLE DI BUILD (STRUMENTI AUTOMATICI) ===
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+bin/
+obj/
+
+# === LOG E TEMPORANEI ===
+*.log
+*.tmp
